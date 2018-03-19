@@ -1,0 +1,20 @@
+2018-03-02 12:24:55 [DEBUG]  acccobol5.PruebaLog:11 - HOLA
+2018-03-02 12:25:47 [DEBUG]  acccobol5.PruebaLog:11 - HOLA
+2018-03-02 12:37:58 [DEBUG]  acccobol5.PruebaLog:12 - HOLA
+2018-03-02 12:38:18 [DEBUG]  acccobol5.PruebaLog:12 - HOLA
+2018-03-02 12:56:39 [ERROR]  acccobol5.PruebaLog:21 - Petó al abrir el fichero
+java.io.FileNotFoundException: f (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at acccobol5.PruebaLog.main(PruebaLog.java:17)
+2018-03-02 13:19:06 [ERROR]  acccobol5.PruebaLog:25 - Error tratando la persona NOMBRE VALE DNI 33 EDAD 28
+java.io.FileNotFoundException: f (El sistema no puede encontrar el archivo especificado)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileReader.<init>(Unknown Source)
+	at acccobol5.PruebaLog.main(PruebaLog.java:20)
